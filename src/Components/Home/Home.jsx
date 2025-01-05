@@ -69,9 +69,9 @@ const Home = ({ className }) => {
       </div>
       <div className="image sm:w-1/2 flex justify-center px-6">
         <img
-          src="1.png"
+          src="/Portfolio/1.png"
           alt="loading..."
-          className="h-[380px] w-[380px] sm:h-[240px] sm:w-[240px] md:h-[320px] md:w-[320px]  lg:h-[380px] lg:w-[380px] rounded-full shadow-lg shadow-white"
+          className="h-[240px] w-[240px] md:h-[320px] md:w-[320px]  lg:h-[380px] lg:w-[380px] rounded-full shadow-lg shadow-white"
         />
       </div>
     </section>

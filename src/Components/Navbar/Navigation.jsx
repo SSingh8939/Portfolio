@@ -18,6 +18,11 @@ export default function Navigation() {
 
   const menuItems = ["Home", "About", "Services", "Skills", "Experience"];
 
+  // Function to close the menu
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   // Set up IntersectionObserver to watch sections
   const observerCallback = (entries) => {
     entries.forEach((entry) => {
@@ -45,6 +50,7 @@ export default function Navigation() {
   return (
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
+      isMenuOpen={isMenuOpen} // Bind the state to the Navbar
       className="bg-transparent h-15 sm:px-10 md:px-20 lg:px-[120px] justify-between"
     >
       <NavbarContent>
@@ -87,12 +93,15 @@ export default function Navigation() {
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
-              className={`w-full text-${
+              className={`w-full ${
                 selectedItem === item ? "text-yellow-400" : "text-foreground"
               }`}
               href={`#${item}`}
               size="lg"
-              onPress={() => setSelectedItem(item)}
+              onPress={() => {
+                setSelectedItem(item);
+                closeMenu(); // Explicitly close the menu
+              }}
             >
               {item}
             </Link>

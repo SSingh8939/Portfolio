@@ -14,7 +14,7 @@ const About = ({ className }) => {
       <div className="flex gap-5">
         <div className="image hidden sm:w-1/4 lg:flex justify-center items-center px-6 ">
           <img
-            src="2.png"
+            src="/Portfolio/2.png"
             alt="loading..."
             className="h-[240px] w-[240px] rounded-full shadow-lg shadow-gray-400"
           />

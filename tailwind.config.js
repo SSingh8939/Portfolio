@@ -29,6 +29,16 @@ export default {
           secondaryDark: "#ffffff",
         },
       },
+      screens: {
+        xs: "400px", // Custom breakpoint for extra small screens
+        sm: "640px", // Default small screen
+        md: "768px", // Default medium screen
+        lg: "1024px", // Default large screen
+        xl: "1280px", // Default extra-large screen
+        "2xl": "1536px", // Default double extra-large screen
+        "3xl": "1600px", // Custom breakpoint for 3XL screens
+        "4xl": "1920px", // Custom breakpoint for 4XL screens
+      },
     },
   },
   plugins: [nextui()],

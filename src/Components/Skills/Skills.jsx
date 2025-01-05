@@ -20,46 +20,38 @@ const Skills = ({ className }) => {
       >
         My Skills
       </h1>
-      <div className="flex flex-wrap justify-center gap-20 mt-20 ">
+      <div className="flex flex-wrap justify-center gap-5 xs:gap-20 mt-20 ">
         <SkillCard
           icon={<FaHtml5 color="orange" className="h-full w-full" />}
           text="HTML 5"
-          className="w-40 h-48"
         />
         <SkillCard
           icon={<FaCss3Alt color="orange" className="h-full w-full" />}
           text="CSS 3"
-          className="w-40 h-48"
         />
         <SkillCard
           icon={<IoLogoJavascript color="orange" className="h-full w-full" />}
           text="Javascript"
-          className="w-40 h-48"
         />
         <SkillCard
           icon={<FaBootstrap color="orange" className="h-full w-full" />}
           text="Bootstrap"
-          className="w-40 h-48"
         />
         <SkillCard
           icon={<RiReactjsLine color="orange" className="h-full w-full" />}
           text="React JS"
-          className="w-40 h-48"
         />
         <SkillCard
           icon={<RiJavaLine color="orange" className="h-full w-full" />}
           text="Java"
-          className="w-40 h-48"
         />
         <SkillCard
           icon={<SiSpringboot color="orange" className="h-full w-full" />}
           text="Springboot"
-          className="w-40 h-48"
         />
         <SkillCard
           icon={<TbBrandMysql color="orange" className="h-full w-full" />}
           text="MySQL"
-          className="w-40 h-48"
         />
       </div>
     </section>

@@ -15,7 +15,7 @@ function App() {
     <div
       className="bg-cover bg-center h-screen overflow-auto"
       style={{
-        backgroundImage: "url('3.jpg')",
+        backgroundImage: "url('/Portfolio/3.jpg')",
       }}
     >
       <Navigation />
