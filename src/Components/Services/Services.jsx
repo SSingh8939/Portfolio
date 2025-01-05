@@ -2,6 +2,7 @@ import React from "react";
 import ServiceCard from "./ServiceCard";
 import { FaReact } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
+import { RiGlobalLine } from "react-icons/ri";
 
 const Services = ({ className }) => {
   return (
@@ -26,9 +27,9 @@ const Services = ({ className }) => {
           desc="Specializing in developing secure, high-performance web applications. My work ensures dynamic user experiences and smooth interactions across platforms."
         />
         <ServiceCard
-          logo={<FaJava size={36} color="orange" />}
-          serviceName="Web Development"
-          desc="Specializing in developing secure, high-performance web applications. My work ensures dynamic user experiences and smooth interactions across platforms."
+          logo={<RiGlobalLine size={36} color="orange" />}
+          serviceName="Software Development"
+          desc="As a dedicated software developer, I specialize in designing, building, and optimizing applications that deliver seamless user experiences and robust functionality. With a strong foundation in programming languages like Java, and JavaScript, coupled with expertise in frameworks such as Spring Boot, ReactJS, I craft scalable and efficient solutions tailored to meet diverse requirements."
         />
       </div>
     </section>
